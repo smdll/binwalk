@@ -34,6 +34,12 @@ If you're running Python 2.x, installing the optional Python lzma module is stro
 $ sudo apt-get install python-lzma
 ```
 
+[from smdll] For Windows users, I personally recommend you to use the following command to set alias:
+
+```bash
+> DOSKEY binwalk=python "%PYHOME%\Scripts\binwalk" $*
+```
+
 For instructions on installing other optional dependencies, see [installation guide](https://github.com/ReFirmLabs/binwalk/blob/master/INSTALL.md).
 
 
